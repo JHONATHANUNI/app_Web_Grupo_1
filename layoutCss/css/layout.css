@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 150px;
+}
+
+.page {
+    width: 100vw;
+    height: 75vh;
+    overflow: hidden;
+    /* Eliminé la propiedad duplicate overflow */
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 2fr 1fr 4fr 1fr;
+    grid-template-areas:
+        "header header"
+        "form menu"
+        "body menu"
+        "footer menu";
+    /* Corregí 'fooder' a 'footer' */
+}
+
+.page .headerContent {
+    background-color: #aaccc9;
+    grid-area: header;
+}
+
+.page .menuContent {
+    background-color: #fc0606;
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    
+}
+
+.page .formSearch {
+    background-color: #92c2c4;
+    grid-area: form;
+}
+
+.page .bodyContent {
+    background-color: #83a6b4;
+    grid-area: body;
+}
+
+.page .footerContent {
+    background-color: #bb7fb6;
+    grid-area: footer;
+    /* Corregí 'fooder' a 'footer' */
+}
+.btn{
+
+width: 150px;
+height: 150px;
+border-radius: 50%;
+position: relative;
+
+
+}

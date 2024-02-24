@@ -1,0 +1,40 @@
+div{
+
+border: 10px solid #f50606;
+
+}
+/* Aqui van todos los style*/
+#subTitulo{
+
+font-size: 24px ; /*tamaño de fuente o letra  */
+font-family: 'Times New Roman', Times, serif; /*Tipo de letra*/
+text-align: center;
+background-color: #00ffff;
+text-decoration: underline;
+font-weight:normal; /*para quitar la negrilla*/
+font-style: italic; /* para poder de lado el texto*/
+text-align: center; /* para centrar el texto o mas metodos para poner a la derecha o justificar*/
+text-decoration: overline; /* poner una ralla en la parte de arriba del tetxto*/
+text-decoration: underline; /* para subrrayar el texto*/
+text-shadow: 3px #37ee09;/*pone una sombra en el texto*/
+text-transform: uppercase;/*texto en mayuscula*/
+text-transform: lowercase;/*texto en minuscula */
+text-transform: capitalize;/*pone las primeras letras del texto en mayuscula */
+text-indent: 50px;/*para correr el espacio de un texto a un lado */
+word-spacing: 10px;/*un espacio entre cada palabra*/
+letter-spacing: 10px;/*un espacio entre cada letra*/
+line-height: 10px;/* el alto de la linea del texto */
+color: #0a0a0a;
+background: url('../recursos/Fondos_imagenes/pikachuuu.png'),
+url(https://thumbs.dreamstime.com/b/puerto-deportivo-de-dubai-51444879.jpg);
+/*para poner una imagen de fondo png*/
+background-position: 50px,0px;
+background-size: 100px 0px; /* tamaño de la imagen */
+
+}
+
+button{
+
+border: #37ee09;
+
+}
